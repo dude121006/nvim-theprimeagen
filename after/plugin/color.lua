@@ -19,4 +19,4 @@ function NoColorMyVim(color)
 
 end
 
-colorMyVim()
+ColorMyVim()

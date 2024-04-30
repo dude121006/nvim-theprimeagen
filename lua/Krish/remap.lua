@@ -35,4 +35,10 @@ vim.keymap.set("v", "<leader>p", "\"_dP")
 -- no highlight search
 vim.keymap.set("n", "<leader>/", ":nohlsearch")
 
+-- open with vscode
+vim.keymap.set("n", "<leader>,c", ":!code .")
 
+-- makefile all, compile, run
+vim.keymap.set("n", "<leader>,a", ":!mingw32-make<CR>")
+vim.keymap.set("n", "<leader>,s", ":!mingw32-make compile<CR>")
+vim.keymap.set("n", "<leader>,d", ":!mingw32-make run<CR>")

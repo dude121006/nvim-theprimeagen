@@ -71,5 +71,15 @@ return require('packer').startup(function(use)
 	  "folke/which-key.nvim",
   }
 
+  use {
+      'numToStr/Comment.nvim',
+      config = function()
+          require('Comment').setup()
+      end
+  }
+
+  use {
+      "ray-x/lsp_signature.nvim",
+  }
 
 end)
